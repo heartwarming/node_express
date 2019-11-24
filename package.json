@@ -14,7 +14,7 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "iconv-lite": "^0.4.13",
-    "mongoose": "^5.5.1",
+    "mongoose": "^5.7.5",
     "morgan": "^1.6.1",
     "serve-favicon": "^2.3.2"
   }
