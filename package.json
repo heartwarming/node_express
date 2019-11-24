@@ -15,7 +15,7 @@
     "express": "~4.13.1",
     "iconv-lite": "^0.4.13",
     "mongoose": "^5.5.1",
-    "morgan": "^1.6.1",
+    "morgan": "^1.9.1",
     "serve-favicon": "^2.3.2"
   }
 }
