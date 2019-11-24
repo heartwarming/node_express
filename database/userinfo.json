@@ -1,0 +1,37 @@
+{
+    "statusCode": 200,
+    "message": "操作成功",
+    "data": {
+        "sex": null,
+        "linkedin": "linkedin",
+        "staff_id": "4486de8c-43fc-4381-a067-8d2c962e7a50",
+        "code": "13001122331",
+        "org": "友人网络科技",
+        "photo": "http://ncc-hr-pub-prod.oss-cn-beijing.aliyuncs.com/lvsy7adv%2F8e5c46cf-4f2d-49d8-8589-1c304e6c5d63_mmexport1516280179251.jpg",
+        "entry_days": "429",
+        "indocflag": true,
+        "isprincipal": true,
+        "weixin": "1838332029",
+        "email": "276898293@qq.com",
+        "itemconf": {
+            "ts": 1516278852000,
+            "officetel": true,
+            "postname": true,
+            "rptrelname": true,
+            "linkedin": true,
+            "job_id_showname": true,
+            "corpname": true,
+            "junior": true,
+            "weixin": true,
+            "email": true,
+            "orgname": true,
+            "qq": true,
+            "mobile": true
+        },
+        "name": "李强",
+        "dept": "人力薪资组",
+        "qq": "3256157218",
+        "endflag": false,
+        "mobile": "13001122331"
+    }
+}

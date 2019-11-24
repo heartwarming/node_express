@@ -1,0 +1,94 @@
+{
+    "statusCode": 200,
+    "message": "操作成功！",
+    "data": {
+        "knowledgeClass": [
+            {
+                "id": "lvsy7adv10000001urke",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "2001_1001",
+                "name": "北京人",
+                "pid": "lvsy7adv10000001urkd",
+                "enable": true,
+                "memo": null,
+                "innerCode": "0000500000",
+                "precut": false,
+                "pname": "老兵勿忘",
+                "last": true,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urkf",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "2001_1002",
+                "name": "休假",
+                "pid": "lvsy7adv10000001urkd",
+                "enable": true,
+                "memo": null,
+                "innerCode": "0000500001",
+                "precut": false,
+                "pname": "老兵",
+                "last": true,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urkg",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "2001_1003",
+                "name": "报销",
+                "pid": "lvsy7adv10000001urkd",
+                "enable": true,
+                "memo": null,
+                "innerCode": "0000500002",
+                "precut": false,
+                "pname": "老兵勿",
+                "last": true,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urkh",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "2001_1004",
+                "name": "公积金",
+                "pid": "lvsy7adv10000001urkd",
+                "enable": true,
+                "memo": null,
+                "innerCode": "0000500003",
+                "precut": false,
+                "pname": "老兵勿",
+                "last": true,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urki",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+
+                "bu_id": null,
+                "code": "2001_1005",
+                "name": "福利",
+                "pid": "lvsy7adv10000001urkd",
+                "enable": true,
+                "memo": null,
+                "innerCode": "0000500004",
+                "precut": false,
+                "pname": "老兵勿忘",
+                "last": true,
+                "tenantId": null
+            }
+        ]
+    }
+}

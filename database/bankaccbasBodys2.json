@@ -1,0 +1,106 @@
+{
+	"data": {
+		"data": {
+            "body1": {
+                "rows": [
+                    {
+                        "rowId": "1",
+                        "values": {
+                            "id": {
+                                "display": "1",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "code": {
+                                "display": "8765-4321-9876-0000",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "name": {
+                                "display": "用友科技有限公司",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "currtypeid": {
+                                "display": "人民币",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accounttype": {
+                                "display": "活期",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "balance": {
+                                "display": "123.0",
+                                "scale": -1,
+                                "value": "123"
+                            }
+                        }
+                    },
+                    {
+                        "rowId": "1",
+                         "values": {
+                            "id": {
+                                "display": "2",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "code": {
+                                "display": "8765-4321-9876-1111",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "name": {
+                                "display": "用友科技有限公司2",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "currtypeid": {
+                                "display": "美元",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "accounttype": {
+                                "display": "定期",
+                                "scale": -1,
+                                "value": null
+                            },
+                            "balance": {
+                                "display": "453.0",
+                                "scale": -1,
+                                "value": "453"
+                            }
+                        }
+                    }
+                ]
+            }
+		},
+		"message": null,
+		"success": true
+	},
+	"status": 200,
+	"statusText": "OK",
+	"headers": {
+		"date": "Sat, 04 Nov 2017 09:03:24 GMT",
+		"etag": "W/\"53a-SKOMSssmYEaj/g0YHjfYgEwWhZI\"",
+		"server": "Apache-Coyote/1.1",
+		"connection": "close",
+		"x-powered-by": "Express",
+		"content-length": "1338",
+		"content-type": "application/json;charset=UTF-8"
+	},
+	"config": {
+		"transformRequest": {},
+		"transformResponse": {},
+		"timeout": 0,
+		"xsrfCookieName": "XSRF-TOKEN",
+		"xsrfHeaderName": "X-XSRF-TOKEN",
+		"maxContentLength": -1,
+		"headers": { "Accept": "application/json, text/plain, */*", "Content-Type": "application/json;charset=utf-8" },
+		"method": "post",
+		"url": "/tmc-bd-web/bd/bankaccbas/list",
+		"data": "{\"pageSize\":10,\"pageIndex\":1}"
+	},
+	"request": {}
+}

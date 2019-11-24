@@ -1,0 +1,46 @@
+{
+    "statusCode": 200,
+    "message": "查询成功",
+    "data": {
+        "percent": 0.5,
+        "currentTask": "财务",
+        "handOverList": [
+            {
+                "itemTypeName": "IT",
+                "itemList": [
+                    {
+                        "id": "xplkmuh3100000003yqy",
+                        "scope": null,
+                        "ts": 1520655714000,
+                        "status": 0,
+                        "bu_id": null,
+                        "bill_id": "entry",
+                        "staff_id": "xplkmuh3100000001tm5",
+                        "itemtype": "HR_CLOUD032300000001",
+                        "item_id": "xplkmuh3100000000r0n",
+                        "linkman_id": "xplkmuh3100000001tm5",
+                        "linkman": [
+                            {
+                                "id": "xplkmuh3100000001tm5",
+                                "email": "15565226767@yonyou.com",
+                                "orgname": "总经办",
+                                "name": "刘超",
+                                "mobile": "15565226767"
+                            }
+                        ],
+                        "ischeck": true,
+                        "checker": null,
+                        "checkdate": null,
+                        "memo": "1",
+                        "itemname": "电脑",
+                        "itemtypename": "IT",
+                        "checkername": null,
+                        "handlerlist": null,
+                        "tenantId": null
+                    }
+                ],
+                "itemTypeId": "HR_CLOUD032300000001"
+            }
+        ]
+    }
+}

@@ -1,0 +1,340 @@
+//为了适用于修改保存，每个row需要增加状态status(0 不变,1 修改,2 新增,3 删除)，
+//对于新增行，需要传递行中所有字段；
+//修改行传递修改的字段，其中主键必须；
+//删除行，只传递主键字段。
+
+//下面的格式为前后台传递的基本格式，所有单据尽量使用这种结构，有特殊需要，需要前后台再约定结构
+{
+	"data": {	
+		"head": {
+			"pageInfo": {
+                "pageIndex": 1,
+                "pageSize": 10,
+                "total": 17
+            },
+			"rows": [
+				{
+					"id": "10001",//主键
+					"status": 1,
+					"values": {
+						"code": {//账号
+							"display": "8765-4321-9876-0000",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"name": {//户名
+							"display": "云测信息技术有限公司",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"banktype":{//银行类别
+						    "display": "建行-北京分行",
+                        	"scale": -1,
+                        	"value": "0001Z51000000000IF62"
+						},
+						"bankid": {//开户行
+							"display": "建行-北京分行",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"orgid": {//开户公司
+
+							"display": "用友信息技术有限公司",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"opentime": {//开户时间
+							"display": "2017-09-22",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"memo": {//备注
+							"display": "备注内容不要超过五十个字符字数补丁",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"net_enablestatus": {//网银开通状态
+							"display": "否",
+							"scale": -1,
+							"value": false
+						},
+						"net_code": {//人行联行行号
+							"display": "0001Z51000000000IF62",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_name": {//人行联行名称
+							"display": "建行-北京分行",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_area": {//开户地区
+
+							"display": "北京",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"net_province": {//省份
+							"display": "山西",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"net_city": {//城市
+							"display": "太原",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						}
+					}
+				},
+				{
+					"id": "10002",//主键
+					"status": 1,
+					"values": {
+						"code": {//账号
+							"display": "8765-4321-9876-1111",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"name": {//户名
+							"display": "云测信息技术有限公司",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+                        "banktype":{//银行类别
+						    "display": "北京分行",
+                        	"scale": -1,
+                        	"value": "0001Z51000000000IF62"
+						},
+						"bankid": {//开户行
+							"display": "建行-北京分行",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"orgid": {//开户公司
+
+							"display": "用友信息技术有限公司",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"opentime": {//开户时间
+							"display": "2017-09-22",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"memo": {//备注
+							"display": "备注内容不要超过五十个字符字数补丁",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"net_enablestatus": {//网银开通状态
+							"display": "是",
+							"scale": -1,
+							"value": false
+						},
+						"net_code": {//人行联行行号
+							"display": "0001Z51000000000IF62",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_name": {//人行联行名称
+							"display": "工行-北京分行",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_area": {//开户地区
+
+							"display": "北京",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"net_province": {//省份
+							"display": "北京",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"net_city": {//城市
+							"display": "北京",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						}
+					}
+				},
+				{
+					"id": "10003",//主键
+					"status": 1,
+					"values": {
+						"code": {//账号
+							"display": "8765-4321-9876-0000",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"name": {//户名
+							"display": "云测信息技术有限公司",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"banktype":{//银行类别
+                        	"display": "建行-北京分行",
+                            "scale": -1,
+                            "value": "0001Z51000000000IF62"
+                        },
+                        "bankid": {//开户行
+                        	"display": "建行-北京分行",
+                        	"scale": -1,
+                        	"value": "0001Z51000000000IF62"
+                        },
+						"orgid": {//开户公司
+
+							"display": "用友信息技术有限公司",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"opentime": {//开户时间
+							"display": "2017-09-22",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"memo": {//备注
+							"display": "备注内容不要超过五十个字符字数补丁",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						},
+						"net_enablestatus": {//网银开通状态
+							"display": "否",
+							"scale": -1,
+							"value": false
+						},
+						"net_code": {//人行联行行号
+							"display": "0001Z51000000000IF62",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_name": {//人行联行名称
+							"display": "建行-北京分行",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"net_area": {//开户地区
+
+							"display": "北京",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						},
+						"net_province": {//省份
+							"display": "山西",
+							"scale": -1,
+							"value": "2017-07-22 00:00:00"
+						},
+						"net_city": {//城市
+							"display": "太原",
+							"scale": -1,
+							"value": "1002Z0100000000001K1"
+						}
+					}
+				}
+			]
+		},
+		"body1": {
+			"pageInfo": null,
+			"rows": [
+				{
+					"id": "101",
+					"status": 1,
+					"values": {
+						"code": {//子户编码
+							"display": "8765-4321-9876-0000",
+							"scale": -1,
+							"value": null
+						},
+						"name": {//子户名称
+							"display": "用友科技有限公司",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"currtypeid": {//币种
+							"display": "人民币",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"accounttype": {//账户类型
+							"display": "活期",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"balance": {//期初余额
+							"display": "￥123.0",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						}
+					}
+				},
+				{
+					"id": "102",
+					"status": 1,
+					"values": {
+						"code": {//子户编码
+							"display": "8765-4321-9876-111",
+							"scale": -1,
+							"value": null
+						},
+						"name": {//子户名称
+							"display": "用友科技有限公司2",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"currtypeid": {//币种
+							"display": "美元",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"accounttype": {//账户类型
+							"display": "定期",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"balance": {//期初余额
+							"display": "￥143.0",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						}
+					}
+				},
+				{
+					"id": "103",
+					"status": 1,
+					"values": {
+						"code": {//子户编码
+							"display": "8765-4321-9876-111",
+							"scale": -1,
+							"value": null
+						},
+						"name": {//子户名称
+							"display": "用友科技有限公司2",
+							"scale": 2,
+							"value": "540.00"
+						},
+						"currtypeid": {//币种
+							"display": "美元",
+							"scale": -1,
+							"value": "2017-07-26 14:06:58"
+						},
+						"accounttype": {//账户类型
+							"display": "定期",
+							"scale": -1,
+							"value": "0001Z51000000000IF62"
+						},
+						"balance": {//期初余额
+							"display": "￥143.0",
+							"scale": -1,
+							"value": "1001Z51000000000FRG3"
+						}
+					}
+				}
+			]
+		}	
+	},
+	"message": null,
+	"success": true
+}
+
+

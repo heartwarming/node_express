@@ -1,0 +1,105 @@
+{
+    "data": {
+        "head": {
+            "pageInfo": {
+                "pageIndex": 1,
+                "pageSize": 10,
+                "total": 17
+            },
+            "rows": [
+                {
+                    "rowId": "0",
+                    "values": {
+                        "id": {
+                            "display": "1",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountpid": {
+                            "display": "8765-4321-9876-0000",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountpidname": {
+                            "display": "云测信息技术有限公司",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountbank": {
+                            "display": "建行-北京分行",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountopentime": {
+                            "display": "2017-09-22",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "border": {
+                            "display": "境内",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "remarks": {
+                            "display": "备注内容不要超过五十个字符字数补丁",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "pidstatus": {
+                            "display": "用友信息技术有限公司",
+                            "scale": 2,
+                            "value": "540.00"
+                        }
+                    }
+                },
+                {
+                    "rowId": "1",
+                    "values": {
+                        "id": {
+                            "display": "2",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountpid": {
+                            "display": "8765-4321-9876-0000",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountpidname": {
+                            "display": "云测信息技术有限公司",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountbank": {
+                            "display": "工行-北京分行",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "accountopentime": {
+                            "display": "2017-09-22",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "border": {
+                            "display": "境内",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "remarks": {
+                            "display": "备注内容不要超过五十个字符字数补丁",
+                            "scale": 2,
+                            "value": "540.00"
+                        },
+                        "pidstatus": {
+                            "display": "用友信息技术有限公司",
+                            "scale": 2,
+                            "value": "540.00"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "message": null,
+    "success": true
+}

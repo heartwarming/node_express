@@ -1,0 +1,59 @@
+{
+    "statusCode": 200,
+    "message": "操作成功！",
+    "data": {
+        "knowledgeClass": [
+            {
+                "id": "lvsy7adv10000001urju",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "1",
+                "name": "测试1",
+                "pid": "",
+                "enable": true,
+                "memo": null,
+                "innerCode": "00000",
+                "precut": false,
+                "pname": null,
+                "last": false,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urkd",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "2001",
+                "name": "老兵勿忘",
+                "pid": "",
+                "enable": true,
+                "memo": null,
+                "innerCode": "00005",
+                "precut": false,
+                "pname": null,
+                "last": false,
+                "tenantId": null
+            },
+            {
+                "id": "lvsy7adv10000001urkj",
+                "scope": null,
+                "ts": null,
+                "status": 0,
+                "bu_id": null,
+                "code": "3001",
+                "name": "鸡毛蒜皮",
+                "pid": "",
+                "enable": true,
+                "memo": null,
+                "innerCode": "00006",
+                "precut": false,
+                "pname": null,
+                "last": false,
+                "tenantId": null
+            }
+        ]
+    }
+}

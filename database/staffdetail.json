@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "message": "操作成功！",
+    "data": {
+        "id": "lvsy7adv10000007zf87",
+        "scope": null,
+        "creationtime": 1522751561000,
+        "modifiedtime": 1522751561000,
+        "question": "入职",
+        "answer": "<p>&nbsp;<a href=\"http://hr.yonyoucloud.com/portal/index-zh_CN.html#/sidebarHR040006\">http://hr.yonyoucloud.com/portal/index-zh_CN.html#/sidebarHR040006</a> </p><p><br/></p><p><br/></p><p><a href=\"http://hr.yonyoucloud.com/portal/index-zh_CN.html#/sidebarHR040006\">http://hr.yonyoucloud.com/portal/index-zh_CN.html#/sidebarHR040006</a> </p><p><br/></p><p><br/></p>",
+        "ishotsport": true,
+        "label": "",
+        "selfpraise": 0,
+        "classId": null,
+        "className": null,
+        "linkFlag": false,
+        "browsecount": 43,
+        "praisecount": 1,
+        "categoryname": null,
+        "creatorname": null,
+        "modifiername": null,
+        "tenantId": null
+    }
+}
